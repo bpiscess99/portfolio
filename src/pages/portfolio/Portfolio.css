@@ -1,0 +1,173 @@
+.portfolio{
+    background-color: rgb(22, 1, 1);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.delivered{
+    color: #aca6a6;
+}
+
+.delivered h1{
+    text-align: center;
+    margin-top: 3rem;
+    &:hover{
+        color: darkgoldenrod;
+    }
+}
+
+.delivered p{
+    width: 50vw;
+    text-align: center;
+    margin-left: 21rem;
+    margin-top: 4rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    &:hover{
+        color: aliceblue;
+    }
+}
+
+.mongodb{
+    display: flex;
+    box-shadow: 0px 3px 30px rgb(156, 87, 87);
+    width: 62vw;
+    height: 50vh;
+    margin: 4rem 16rem;
+    border-radius: 2rem;
+    border: 2px solid rgb(58, 51, 51);
+}
+
+.mong h1{
+    color: rgb(59, 55, 55); 
+    text-align: center;
+    &:hover{
+        color: yellowgreen;
+    }  
+}
+
+.mong p{
+    font-size: 1.1rem;
+    color: #fff;
+    width: 30vw;
+    margin: 0rem .5rem;
+    text-align: center;
+    line-height: 1.8;
+    &:hover{
+        color: rgb(66, 153, 110);
+    }
+}
+
+.mongo img{
+    height: 20.6rem;
+    width: 22rem;
+    margin: 0px 5.4rem;   
+}
+
+.express{
+    display: flex;
+    box-shadow: 0px 2px 30px rgb(156, 87, 87);
+    width: 62vw;
+    height: 50vh;
+    margin: 4rem 16rem;
+    border-radius: 2rem;
+    background-color: black;
+    margin-top: 8rem;
+}
+
+.express-left img{
+   height: 20.5rem;
+   width: 20rem;
+}
+
+.express-right h1{
+   color: #fff;
+   text-align: center;
+   &:hover{
+    color: rgb(125, 117, 170);
+   }
+}    
+
+.express-right p{
+    color: #fff;
+    width: 30vw;
+    margin: 2rem 5rem;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    &:hover{
+        color: rgb(131, 82, 22);
+    }
+}
+
+.react{
+    display: flex;
+    box-shadow: 0px 2px 30px rgb(156, 87, 87);
+    width: 62vw;
+    height: 50vh;
+    margin: 4rem 16rem;
+    border-radius: 2rem;
+    background-color: rgb(97, 99, 194);
+    margin-top: 8rem;
+}
+
+.react-left h1{
+    text-align: center;
+    margin-top: 2rem;
+    &:hover{
+        color: rgb(3, 12, 39);
+    }
+}
+
+.react-left p{
+    font-size: 1.1rem;
+    color: #fff;
+    width: 30vw;
+    margin: 0rem .5rem;
+    text-align: center;
+    line-height: 1.8;
+    &:hover{
+        color: rgb(1, 12, 32);
+    }
+}
+
+.react-right img{
+    height: 20.6rem;
+    width: 22rem;
+    margin: 0px 5.4rem; 
+}
+
+.node{
+    display: flex;
+    box-shadow: 0px 2px 30px rgb(156, 87, 87);
+    width: 62vw;
+    height: 50vh;
+    margin: 4rem 16rem;
+    border-radius: 2rem;
+    background-color: rgb(7, 1, 31);
+    margin-top: 8rem;
+}
+
+.node-left img{
+    height: 20.5rem;
+    width: 20rem;
+ }
+
+.node-right h1{
+    color: #fff;
+    text-align: center;
+    &:hover{
+     color: orangered;
+    }
+}
+
+.node-right p{
+    color: #fff;
+    width: 30vw;
+    margin: 2rem 5rem;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    &:hover{
+        color: rgb(212, 167, 111);
+    }
+}

@@ -1,0 +1,66 @@
+.footer{
+    background-color: black;
+    height: 65vh;
+    color: yellowgreen;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+.address{
+    margin: 1.6rem;
+}
+
+social-icons{
+ display: flex;
+
+}
+
+.icon{
+    padding: 1rem 1rem;
+    margin: .6rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    &:hover{
+        color: yellowgreen;
+    }
+}
+
+
+.list{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 3rem;
+}
+
+h3{
+    margin: 1.5rem 7rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    &:hover{
+        color: rgb(126, 126, 192);
+    }
+}
+
+.order{
+   display: flex;
+   cursor: pointer;
+   /* margin: 1rem 2rem; */
+}
+
+.contact-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.gap{
+    margin: .5rem;
+}
